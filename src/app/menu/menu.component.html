@@ -1,0 +1,15 @@
+<div class="d-flex">
+<div class="d-flex flex-column m-3 p-1 text-center round" style="background: #141B40; width: 110px" >
+  <div class="p-2 item" *ngFor="let item of itens" (click)="clickItem(item.text)"> 
+    <i class="zmdi {{item.icon}} size"></i> <br/>
+    <p class="text-white">{{item.text}}</p> 
+  </div>
+</div>
+<div class="m-3">
+  <h2>Campo selecionado<br/>
+    {{nome}}
+  </h2>
+
+</div>
+</div>
+

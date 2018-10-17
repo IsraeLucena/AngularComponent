@@ -1,0 +1,37 @@
+
+.text-yellow{
+    color: yellow
+}
+
+.text-green{
+    color: green
+}
+
+.text-violet{
+    color: blueviolet
+}
+
+.text-pink{
+    color: palevioletred
+}
+
+.text-orange{
+    color: orangered
+}
+
+.size{
+    font-size: 30px
+}
+
+.round{
+    border-radius: 12px; 
+}
+
+.item{
+    width: 100px;
+    border-radius: 12px; 
+    border: 1px transparent solid;
+}
+.item:hover{
+    border: 1px #6371b7 solid;
+}
