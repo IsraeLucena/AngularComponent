@@ -23,8 +23,10 @@
     font-size: 30px
 }
 
-.round{
+.roundMenu{
     border-radius: 12px; 
+    background: #141B40; 
+    width: 110px;
 }
 
 .item{
